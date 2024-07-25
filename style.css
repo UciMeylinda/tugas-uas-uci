@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.Header{
+    background-color: blue;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: fixed;
+}
+
+.Logo{
+    padding-top:  20px;
+    padding-bottom: 10px;
+    margin-right: 350px;
+    margin-bottom:  10px;
+}
+
+.menu ul{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li{
+    margin: 30px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li a:hover{
+    color: white;
+    font-style: italic;
+    cursor: grab;
+}
+
+.banner{
+    background-color: rgb(0, 247, 255);
+    height: 600px;
+    color:black;
+    text-align: center;
+}
+
+.banner img{
+    border-radius:  100px;
+    height: 180px;
+    border: solid 6px white;
+    margin-top: 100px;
+}
+
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+.banner button:hover{
+    background-color:rgb(43, 226, 89);
+    border: solid1px white;
+    cursor: pointer;
+}
+
+h1 span:before{
+    content: '';
+    animation:  gerak infinite 8s ease;
+    transform:  translateY(-50%);
+    color:black;
+    font-size:  50px;
+}
+    
+@keyframes gerak {
+    0% {
+        content:'Selamat datang';
+    }
+        50% {
+            content: 'Saya Uci Meylinda';
+        }
+        100% {
+            content:'Terimakasih Sudah Singgah!';
+        }
+    }
+
+.box-pendidikan{
+        text-align: center;
+        color: black;
+        align-content: center;
+        margin-top: 90px;
+        padding-top: 70px;
+    }
+.box-kiri, .box-tengah, .box-kanan{
+    width: 280px;
+    height: 320px;
+    margin: 70px 20px 20px 55px;
+    background-color: gray;
+    border-radius:  10px;
+    padding: 10px 10px;
+}
+
+.bungkus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.Bungkus h3,p{
+    margin: 10px 0px 13px;
+    padding:  0px 20px;
+    align-content: center;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.Softskill{
+    text-align: center;
+    align-items: center;
+    margin-top:  90px;
+    padding-top:  70px;
+}
+
+.Kontak {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.Kontak img{
+    margin-bottom: 30px;
+    width: 100px;
+    margin-top: 50px;
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    width: 100%;
+    height: 30px;
+    padding: 3px;
+    margin: 50px auto 0;
+}
+
+.footer p{
+    text-align: center;
+}
